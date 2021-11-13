@@ -1,0 +1,214 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+	
+}
+.navbar-brand{
+	font-size:2rem;
+	color:#ff004f;
+	font-family: 'Anton', sans-serif;
+	font-size:45px;
+	
+}
+.navbar-brand:hover{
+	color:#800020;
+}
+.nav-link{
+	margin-right:10px;
+	margin-left:10px;
+	color:black;
+	text-transform:uppercase;
+	font-family: 'Anton', sans-serif;
+}
+.nav-link:hover{
+	color:#ff004f;
+}
+.search{
+	height:40px;
+	width:80%;
+	border-radius:60px;
+	outline:none;
+	border:2px solid rgb(248,26,92);
+	margin-right:-35px;
+	font-family: 'Lobster', cursive;
+}
+.btn0{
+	height:40px;
+	width:40%;
+	border:none;
+	outline:none;
+	background:rgb(248,26,92);
+	color:white;
+	font-weight:700;
+	border-radius:60px;
+	font-family: 'Lobster', cursive;
+}
+.main{
+	background-image: url("bg-4.jpg");
+	/*background-image: url("bg1-5.jpg");*/
+	/*border:1px solid;*/
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	background-position:50% 50%;
+	-webkit-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+-moz-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+
+
+background-color:#dbdbdb;
+}
+.main h1{
+	font-size:4rem;
+	font-weight:700;
+	text-align:right;
+}
+.main .anch{
+	text-decoration:none;
+	color:white
+}
+.btn1{
+	height:45px;
+	width:35%;
+	border:none;
+	outline:none;
+	background:rgb(248,26,92);
+	font-weight:700;
+	border-radius:60px;
+	color:white;
+}
+.btn1:hover{
+	background:rgb(248,26,89);
+}
+	
+h1{
+	font-weight:700;
+}
+.new{
+   background-color:#f5f5f5;
+}
+
+.newimg{
+	border-radius:3rem;
+	-webkit-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+-moz-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+border-radius:5rem;
+background-color:#dbdbdb;
+}
+
+	
+
+.product{
+   background-color:#f5f5f5;
+}
+.product .anch{
+   text-decoration:none;
+   color:white;
+}
+.product .img-fluid{
+   height:15rem;
+}
+.product h1:hover{
+	color:		#696969;
+}
+.product .stars .checked{
+  /*font-size:1.7rem;*/
+
+  color:#ff004f;
+}
+
+
+
+.card:hover{
+	-webkit-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+-moz-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+border-radius:5rem;
+background-color:#dbdbdb;
+
+}
+.about{
+   background-color:#f5f5f5;
+}
+.about .anch{
+  text-decoration:none;
+  color:white;
+}
+.about .img-fluid {
+	-webkit-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+-moz-box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+box-shadow: 6.5px -2.5px 15.5px 5px #ddd;
+border-radius:5rem;
+height:15rem;
+}
+.shop{
+   background-color:#f5f5f5;
+}
+.shop .img-fluid{
+   height:15rem;
+}
+
+.shop h1:hover{
+	color:		#696969;
+}
+
+
+
+.apple{
+	/*background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("apple.jpg");*/
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("nutrition.jpg");
+	background-size:cover;
+	height:80vh;
+	width:100%;
+}
+.apple h1{
+	font-family: 'Pacifico', cursive;
+}
+.apple .anch{
+	text-decoration:none;
+	color:white;
+}
+.contact{
+   background-color:#f5f5f5;
+}
+
+.news{
+	background-color:black;
+	color:white;
+}
+.btn2{
+	height:45px;
+	width:100px;
+	background:white;
+	margin-left:-10px;
+	border:2px solid white;
+	font-weight:600;
+}
+.news input{
+	height:45px;
+	width:55%;
+	border:2px solid white;
+	outline: none;
+	background-color:black;
+	color:white;
+	margin-top:20px;
+	font-weight:600;
+}
+
+.news::placeholder{
+	color:white;
+	
+}
+.news p{
+	margin:0;
+}
+
+.news h6{
+	text-align:center;
+}
+
+	
+
